@@ -1,7 +1,6 @@
 <div align="center">
   <h1>YT Summarizer for KoboldAI</h1>
   <p>A quick proof of concept of how KoboldAI can be used to summarize video transcripts from YouTube.</p>
-  <img src="">
 </div>
 
 ## Overview
