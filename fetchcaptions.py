@@ -8,7 +8,7 @@ def split_text(text):
 
 def get_prompt(transcript_text):
     return {
-        "prompt": f"{transcript_text}\n\nHere's a Summary of the above text: ",
+        "prompt": f"User: {transcript_text}\n\nAssistant: Here's a Summary of the above text: ",
         "max_context_length": 2048,
         "max_length": 512,
         "rep_pen": 1.0,
