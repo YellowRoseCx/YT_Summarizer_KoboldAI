@@ -8,7 +8,7 @@ def split_text(text):
 
 def get_prompt(transcript_text):
     return {
-        "prompt": f"User: {transcript_text}\n\nAssistant: Here's a Summary of the above text: ",
+        "prompt": f"Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nSummarize the following text.\n\n### Input:\n{transcript_text}\n\n### Response: ",
         "max_context_length": 2048,
         "max_length": 512,
         "rep_pen": 1.0,
